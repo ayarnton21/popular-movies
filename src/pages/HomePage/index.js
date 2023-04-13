@@ -43,6 +43,7 @@ const HomePage = () => {
           isOpen={isOpen}
           onClose={() => {
             setSelectedId("");
+
             setIsOpen((prev) => !prev);
           }}
           selectedMovie={selectedMovie}
